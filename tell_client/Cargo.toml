@@ -1,0 +1,12 @@
+[package]
+name = "tell_client"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tell_lib = { path = "../tell_lib" }
+crossbeam-channel = "0.5.8"
+simple_logger = "4.1.0"
+log = "0.4.18"
